@@ -19,4 +19,7 @@ export const defaultTheme = {
   'base-card': '#F3F2F2',
   background: '#FAFAFA',
   white: '#FFFFF',
+
+  /* Text */
+  'title-xl': '48px',
 }
