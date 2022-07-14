@@ -4,6 +4,8 @@ export const HeaderContainer = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: auto;
+  max-width: 90rem;
   padding: 32px 160px;
 
   nav {
@@ -24,6 +26,11 @@ export const LocationBadge = styled.div`
   color: ${(props) => props.theme['purple-dark']};
   border-radius: 8px;
   padding: 0.5rem;
+  span {
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 400;
+  }
 `
 export const CartBadge = styled.div`
   background-color: ${(props) => props.theme['yellow-light']};

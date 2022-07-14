@@ -25,6 +25,39 @@ export const GlobalStyle = createGlobalStyle`
   h1 {
     color: ${(props) => props.theme['base-title']};
     font-family: 'Baloo 2';
+    line-height: 130%;
     font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  h2 {
+    color: ${(props) => props.theme['base-title']};
+    font-family: 'Baloo 2';
+    line-height: 130%;
+    font-size: 2rem;
+  }
+  h3 {
+    color: ${(props) => props.theme['base-text']};
+    font-family: 'Baloo 2';
+    line-height: 130%;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  h4 {
+    color: ${(props) => props.theme['base-title']};
+    font-family: 'Baloo 2';
+    line-height: 130%;
+    font-size: 1.25rem;
+  }
+  span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 0.625rem;
+
+  }
+  p {
+    font-family: 'Roboto';
+    font-size: 1.25rem;
+
+
   }
 `
